@@ -1,38 +1,172 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.ant-layout-header {
+	top: 0;
+	z-index: 100;
+	position: sticky;
+	padding: 0;
+}
+.ant-anchor {
+	display: flex;
+	justify-content: end;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.ant-anchor-ink {
+	display: none;
+}
+.ant-anchor-link-title {
+	color: white;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+.logo a {
+	color: white;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.logo a:hover {
+	color: aliceblue;
+}
+a:hover {
+	color: wheat;
+}
+.ant-anchor-link-active > .ant-anchor-link-title,
+a:active {
+	color: wheat !important;
+  font-weight: bold;
+}
+.content {
+	padding: 50px;
+}
+.btn_primary {
+	margin-right: 10px;
+}
+.heroblock {
+	margin: 40px 0px 40px 0px;
+}
+.ant-carousel .slick-dots-bottom {
+	bottom: -30px;
+}
+.ant-carousel .slick-dots li button {
+	background: #9ebff4;
+	opacity: 0.5;
+}
+.aboutBlock {
+	text-align: center;
+	padding: 20px;
+}
+.contentHolder {
+	margin-bottom: 60px;
+}
+.featureBlock {
+	padding: 40px;
+}
+.titleHolder {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.faqBlock {
+	padding: 40px;
+}
+.pricingCard {
+	padding: 40px;
+}
+.contactBlock {
+	padding: 40px;
+}
+.ant-layout-footer {
+	padding: 0;
+}
+.footer {
+	background-color: rgb(10, 2, 60);
+	padding: 40px;
+}
+.footer-ul {
+	text-decoration-style: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+}
+.footer-ul a {
+	color: azure;
+	font-size: 20px;
+}
+.footer-ul a:hover {
+	color: rgb(247, 203, 203);
+}
+.ficon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mobileVisible {
+	display: none;
+}
+.herotabimg {
+	width: 100%;
+}
+@media only screen and (max-width: 768px) {
+	.herotabimg {
+		width: 380px;
+	}
+	.mobileVisible {
+		display: block;
+		display: flex;
+		justify-content: end;
+		margin-top: 15px;
+	}
+	.mobileHidden {
+		display: none;
+	}
+	.ant-anchor-link-title {
+		color: black;
+	}
+	.ant-anchor {
+		display: block;
+	}
+	.mobileMenu {
+		color: black;
+	}
+	.ant-anchor-ink {
+		display: block;
+	}
 }
