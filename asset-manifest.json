@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React_Ant_Demo/static/css/main.d54844e6.css",
+    "main.js": "/React_Ant_Demo/static/js/main.61f87e2c.js",
+    "static/js/787.41c9d38d.chunk.js": "/React_Ant_Demo/static/js/787.41c9d38d.chunk.js",
+    "static/media/advanced-option.jpg": "/React_Ant_Demo/static/media/advanced-option.84c7d0693123632c9035.jpg",
+    "static/media/modern-design.jpg": "/React_Ant_Demo/static/media/modern-design.e2114f5b8abbe8b1fa8b.jpg",
+    "static/media/unlimited-features.jpg": "/React_Ant_Demo/static/media/unlimited-features.a0b8acf77e6b57772078.jpg",
+    "static/media/logo.svg": "/React_Ant_Demo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React_Ant_Demo/index.html",
+    "main.d54844e6.css.map": "/React_Ant_Demo/static/css/main.d54844e6.css.map",
+    "main.61f87e2c.js.map": "/React_Ant_Demo/static/js/main.61f87e2c.js.map",
+    "787.41c9d38d.chunk.js.map": "/React_Ant_Demo/static/js/787.41c9d38d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d54844e6.css",
+    "static/js/main.61f87e2c.js"
+  ]
+}
